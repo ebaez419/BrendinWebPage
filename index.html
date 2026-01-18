@@ -1,5 +1,12 @@
 <!DOCTYPE html>
 <html>
+<head>
+    <script 
+        src= "https://www.paypal.com/sdk/js?client-id=BAAf6smpu6jbNl5aePY-jO0w4i_UUjOMrHcxLj4d6EIMmqO5lD9IJe-q5MQetUOqaMVfNaQlYkjq-Rt1sc&components=hosted-buttons&enable-funding=venmo&currency=USD"
+    ></script>
+</head>  
+
+
 <body>
 
     <h1>HI I Love Cats Here is a Cat Vidos.</h1>
@@ -7,6 +14,13 @@
     <p>My name is Brendin Baez</p>
 
     <iframe width="560" height="315" src="https://www.youtube.com/embed/eX2qFMC8cFo?si=n6CiHWymbAqnggrT" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+ 
+    <div id="paypal-container-T6JUCER5JVF4U"></div>
+    <script>
+         paypal.HostedButtons({
+         hostedButtonId: "T6JUCER5JVF4U",
+        }).render("#paypal-container-T6JUCER5JVF4U")
+    </script>
 
 </body>
 
